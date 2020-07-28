@@ -7,9 +7,9 @@ using System.Text;
 
 namespace IdentityServer.Infrastructure.Data.Identity
 {
-    class IdentityDbContext : IdentityDbContext<AppUser>
+    public class AppIdentityDbContext : IdentityDbContext<AppUser>
     {
-        public IdentityDbContext(DbContextOptions<IdentityDbContext> options) : base(options)
+        public AppIdentityDbContext(DbContextOptions<AppIdentityDbContext> options) : base(options)
         {
         }
 
@@ -20,7 +20,8 @@ namespace IdentityServer.Infrastructure.Data.Identity
             // For example, you can rename the ASP.NET Identity table names and more.
             // Add your customizations after calling base.OnModelCreating(builder);
 
-            modelBuilder.Entity<IdentityRole>().HasData(new IdentityRole { Name = Constants.Roles.Consumer, NormalizedName = Constants.Roles.Consumer.ToUpper() });
+            modelBuilder.Entity<IdentityRole>().HasData(new IdentityRole { Name = Constants.Roles.Teacher, NormalizedName = Constants.Roles.Teacher.ToUpper() });
+            modelBuilder.Entity<IdentityRole>().HasData(new IdentityRole { Name = Constants.Roles.Student, NormalizedName = Constants.Roles.Student.ToUpper() });
         }
 
     }

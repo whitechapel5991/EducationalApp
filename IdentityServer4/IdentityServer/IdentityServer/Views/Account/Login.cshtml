@@ -1,0 +1,60 @@
+﻿@model LoginViewModel
+
+<h1>Nice to see you again!</h1>
+
+<div class="row">
+
+
+    <div class="col-md-4 ml-5">
+
+        <h1 class="mt-5 mb-3">External Login</h1>
+
+        <div class="list-group">
+            @foreach (var provider in Model.VisibleExternalProviders)
+            {
+                <a class="list-group-item list-group-item-action"
+                   asp-controller="External"
+                   asp-action="Challenge"
+                   asp-route-provider="@provider.AuthenticationScheme"
+                   asp-route-returnUrl="@Model.ReturnUrl">
+                    @provider.DisplayName
+                </a>
+            }
+        </div>
+    </div>
+
+    <div class="col-md-4">
+
+        <h1 class="mt-5 mb-3">Login</h1>
+
+        <form asp-route="Login">
+            <input type="hidden" asp-for="ReturnUrl" />
+            <div class="form-group">
+                <label asp-for="Email"></label>
+                <input class="form-control" placeholder="Email" asp-for="Email" autofocus>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Password"></label>
+                <input type="password" class="form-control" placeholder="Password" asp-for="Password" autocomplete="off">
+            </div>
+
+
+            <div class="form-check">
+                <input type="checkbox" asp-for="RememberLogin" class="form-check-input">
+                <label asp-for="RememberLogin" class="form-check-label">Remember My Login</label>
+            </div>
+
+            <div>
+                <a href="~/Account/ForgotPassword"  name="button" value="login">Forgot password</a>
+            </div>
+
+            <div class="mt-4 mb-4">
+                <button class="btn btn-primary" name="button" value="login">Login</button>
+                <button class="btn btn-light" name="button" value="cancel">Cancel</button>
+            </div>
+
+            <partial name="_ValidationSummary" />
+        </form>
+    </div>
+</div>

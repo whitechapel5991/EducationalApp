@@ -4,8 +4,9 @@ using System.Text;
 
 namespace IdentityServer.Infrastructure.Constants
 {
-    class Roles
+    public class Roles
     {
-        public const string Consumer = "consumer";
+        public const string Teacher = "teacher";
+        public const string Student = "student";
     }
 }

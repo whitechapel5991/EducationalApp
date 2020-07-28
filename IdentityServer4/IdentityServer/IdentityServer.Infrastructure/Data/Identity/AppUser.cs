@@ -5,7 +5,8 @@ using System.Text;
 
 namespace IdentityServer.Infrastructure.Data.Identity
 {
-    class AppUser : IdentityUser
+    public class AppUser : IdentityUser
     {
+        public string FullName { get; set; }
     }
 }
