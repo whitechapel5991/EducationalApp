@@ -4611,3 +4611,277 @@ MailKit.Net.Smtp.SmtpCommandException: 5.7.1 [1] Message rejected under suspicio
 2020-07-28 19:30:56.727 +03:00 [INF] Removing 0 device flow codes
 2020-07-28 19:31:26.742 +03:00 [INF] Removing 0 grants
 2020-07-28 19:31:26.744 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 21:31:58.599 +03:00 [INF] Starting IdentityServer4 version 4.0.4+1b36d1b414f4e0f965af97ab2a7e9dd1b5167bca
+2020-07-28 21:31:58.633 +03:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-07-28 21:31:58.634 +03:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-07-28 21:31:58.634 +03:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-07-28 21:31:58.634 +03:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-07-28 21:31:58.635 +03:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-07-28 21:31:58.635 +03:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-07-28 21:31:59.831 +03:00 [DBG] Login Url: /Account/Login
+2020-07-28 21:31:59.833 +03:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-07-28 21:31:59.834 +03:00 [DBG] Logout Url: /Account/Logout
+2020-07-28 21:31:59.835 +03:00 [DBG] ConsentUrl Url: /consent
+2020-07-28 21:31:59.835 +03:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-07-28 21:31:59.836 +03:00 [DBG] Error Url: /home/error
+2020-07-28 21:31:59.836 +03:00 [DBG] Error Id Parameter: errorId
+2020-07-28 21:31:59.854 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-07-28 21:31:59.862 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-07-28 21:32:00.176 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-07-28 21:32:00.176 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-07-28 21:32:00.176 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-07-28 21:32:00.176 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-07-28 21:32:00.176 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-07-28 21:32:00.180 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-07-28 21:32:00.185 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-07-28 21:32:00.185 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-07-28 21:32:00.185 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-07-28 21:32:00.185 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-07-28 21:32:00.389 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-07-28 21:32:00.392 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-07-28 21:32:00.411 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-07-28 21:32:00.411 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-07-28 21:32:29.361 +03:00 [INF] Removing 0 grants
+2020-07-28 21:32:29.386 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 21:32:59.407 +03:00 [INF] Removing 0 grants
+2020-07-28 21:32:59.410 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 21:33:29.433 +03:00 [INF] Removing 0 grants
+2020-07-28 21:33:29.437 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 21:33:40.668 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-07-28 21:33:40.670 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-07-28 21:33:40.773 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-07-28 21:33:40.773 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-07-28 21:33:40.775 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-07-28 21:33:40.775 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-07-28 21:33:40.775 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-07-28 21:33:40.775 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-07-28 21:33:40.776 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-07-28 21:33:40.777 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-07-28 21:33:40.779 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-07-28 21:33:40.779 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-07-28 21:33:40.807 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-07-28 21:33:40.807 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-07-28 21:33:59.463 +03:00 [INF] Removing 0 grants
+2020-07-28 21:33:59.468 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 21:34:09.142 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-07-28 21:34:09.145 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-07-28 21:34:22.063 +03:00 [INF] Сообщение отправлено успешно!
+2020-07-28 21:34:29.491 +03:00 [INF] Removing 0 grants
+2020-07-28 21:34:29.494 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 21:34:59.506 +03:00 [INF] Removing 0 grants
+2020-07-28 21:34:59.511 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 21:35:29.528 +03:00 [INF] Removing 0 grants
+2020-07-28 21:35:29.531 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 21:35:59.535 +03:00 [INF] Removing 0 grants
+2020-07-28 21:35:59.538 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 21:36:05.507 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-07-28 21:36:05.508 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-07-28 21:36:05.551 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-07-28 21:36:05.552 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-07-28 21:36:05.586 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-07-28 21:36:05.591 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-07-28 21:36:05.592 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-07-28 21:36:05.595 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-07-28 21:36:05.611 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-07-28 21:36:05.611 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-07-28 21:36:05.613 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-07-28 21:36:05.613 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-07-28 21:36:05.614 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-07-28 21:36:05.620 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-07-28 21:36:05.739 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-07-28 21:36:05.743 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-07-28 21:36:19.561 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-07-28 21:36:19.564 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-07-28 21:36:19.592 +03:00 [INF] {"Username":"Dianis","Provider":null,"ProviderUserId":null,"SubjectId":"34361f74-5ce2-45d7-aa5f-182215e9db4f","DisplayName":"Dianis","Endpoint":"UI","ClientId":null,"Category":"Authentication","Name":"User Login Success","EventType":"Success","Id":1000,"Message":null,"ActivityId":"0HM1J4I1POEVP:00000001","TimeStamp":"2020-07-28T18:36:19.0000000Z","ProcessId":23844,"LocalIpAddress":"::1:5001","RemoteIpAddress":"::1","$type":"UserLoginSuccessEvent"}
+2020-07-28 21:36:19.611 +03:00 [DBG] Augmenting SignInContext
+2020-07-28 21:36:19.612 +03:00 [DBG] Adding idp claim with value: local
+2020-07-28 21:36:19.612 +03:00 [DBG] Adding amr claim with value: pwd
+2020-07-28 21:36:19.612 +03:00 [DBG] Adding auth_time claim with value: 1595961379
+2020-07-28 21:36:19.614 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-07-28 21:36:19.625 +03:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2020-07-28 21:36:29.547 +03:00 [INF] Removing 0 grants
+2020-07-28 21:36:29.550 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 21:36:59.665 +03:00 [INF] Removing 0 grants
+2020-07-28 21:36:59.680 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 21:37:29.687 +03:00 [INF] Removing 0 grants
+2020-07-28 21:37:29.691 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 21:37:59.706 +03:00 [INF] Removing 0 grants
+2020-07-28 21:37:59.708 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 21:38:29.730 +03:00 [INF] Removing 0 grants
+2020-07-28 21:38:29.732 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 21:38:59.760 +03:00 [INF] Removing 0 grants
+2020-07-28 21:38:59.762 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 21:39:29.775 +03:00 [INF] Removing 0 grants
+2020-07-28 21:39:29.779 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 21:39:59.803 +03:00 [INF] Removing 0 grants
+2020-07-28 21:39:59.806 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 21:40:29.809 +03:00 [INF] Removing 0 grants
+2020-07-28 21:40:29.811 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 21:40:59.833 +03:00 [INF] Removing 0 grants
+2020-07-28 21:40:59.835 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 21:41:29.839 +03:00 [INF] Removing 0 grants
+2020-07-28 21:41:29.841 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 21:41:59.856 +03:00 [INF] Removing 0 grants
+2020-07-28 21:41:59.858 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 21:42:27.028 +03:00 [INF] AuthenticationScheme: Identity.Application signed out.
+2020-07-28 21:42:27.030 +03:00 [INF] AuthenticationScheme: Identity.External signed out.
+2020-07-28 21:42:27.030 +03:00 [INF] AuthenticationScheme: Identity.TwoFactorUserId signed out.
+2020-07-28 21:42:27.031 +03:00 [INF] {"SubjectId":"34361f74-5ce2-45d7-aa5f-182215e9db4f","DisplayName":"Dianis","Category":"Authentication","Name":"User Logout Success","EventType":"Success","Id":1002,"Message":null,"ActivityId":"0HM1J4I1POEVQ:0000000F","TimeStamp":"2020-07-28T18:42:27.0000000Z","ProcessId":23844,"LocalIpAddress":"::1:5001","RemoteIpAddress":"::1","$type":"UserLogoutSuccessEvent"}
+2020-07-28 21:42:27.037 +03:00 [DBG] SignOutCalled set; processing post-signout session cleanup.
+2020-07-28 21:42:29.866 +03:00 [INF] Removing 0 grants
+2020-07-28 21:42:29.868 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 21:42:59.873 +03:00 [INF] Removing 0 grants
+2020-07-28 21:42:59.875 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 21:43:29.887 +03:00 [INF] Removing 0 grants
+2020-07-28 21:43:29.888 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 21:43:59.892 +03:00 [INF] Removing 0 grants
+2020-07-28 21:43:59.893 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 21:44:29.905 +03:00 [INF] Removing 0 grants
+2020-07-28 21:44:29.907 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 21:44:59.920 +03:00 [INF] Removing 0 grants
+2020-07-28 21:44:59.921 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 21:45:29.939 +03:00 [INF] Removing 0 grants
+2020-07-28 21:45:29.941 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 21:45:59.963 +03:00 [INF] Removing 0 grants
+2020-07-28 21:45:59.965 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 21:46:29.981 +03:00 [INF] Removing 0 grants
+2020-07-28 21:46:29.982 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 21:47:00.003 +03:00 [INF] Removing 0 grants
+2020-07-28 21:47:00.005 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 21:47:30.023 +03:00 [INF] Removing 0 grants
+2020-07-28 21:47:30.026 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 21:48:00.044 +03:00 [INF] Removing 0 grants
+2020-07-28 21:48:00.046 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 21:48:30.066 +03:00 [INF] Removing 0 grants
+2020-07-28 21:48:30.069 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 21:49:00.077 +03:00 [INF] Removing 0 grants
+2020-07-28 21:49:00.078 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 21:49:30.101 +03:00 [INF] Removing 0 grants
+2020-07-28 21:49:30.103 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 21:50:00.123 +03:00 [INF] Removing 0 grants
+2020-07-28 21:50:00.124 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 21:50:30.137 +03:00 [INF] Removing 0 grants
+2020-07-28 21:50:30.138 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 21:51:00.148 +03:00 [INF] Removing 0 grants
+2020-07-28 21:51:00.150 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 21:51:30.160 +03:00 [INF] Removing 0 grants
+2020-07-28 21:51:30.162 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 21:52:00.178 +03:00 [INF] Removing 0 grants
+2020-07-28 21:52:00.179 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 21:52:30.191 +03:00 [INF] Removing 0 grants
+2020-07-28 21:52:30.193 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 21:53:00.209 +03:00 [INF] Removing 0 grants
+2020-07-28 21:53:00.211 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 21:53:30.234 +03:00 [INF] Removing 0 grants
+2020-07-28 21:53:30.235 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 21:54:00.250 +03:00 [INF] Removing 0 grants
+2020-07-28 21:54:00.251 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 21:54:30.267 +03:00 [INF] Removing 0 grants
+2020-07-28 21:54:30.269 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 21:55:00.281 +03:00 [INF] Removing 0 grants
+2020-07-28 21:55:00.282 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 21:55:30.294 +03:00 [INF] Removing 0 grants
+2020-07-28 21:55:30.295 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 21:56:00.311 +03:00 [INF] Removing 0 grants
+2020-07-28 21:56:00.313 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 21:56:30.322 +03:00 [INF] Removing 0 grants
+2020-07-28 21:56:30.323 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 21:57:00.326 +03:00 [INF] Removing 0 grants
+2020-07-28 21:57:00.327 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 21:57:30.339 +03:00 [INF] Removing 0 grants
+2020-07-28 21:57:30.340 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 21:58:00.346 +03:00 [INF] Removing 0 grants
+2020-07-28 21:58:00.348 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 21:58:30.356 +03:00 [INF] Removing 0 grants
+2020-07-28 21:58:30.359 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 21:59:00.372 +03:00 [INF] Removing 0 grants
+2020-07-28 21:59:00.373 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 21:59:30.390 +03:00 [INF] Removing 0 grants
+2020-07-28 21:59:30.392 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 22:00:00.406 +03:00 [INF] Removing 0 grants
+2020-07-28 22:00:00.410 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 22:00:30.428 +03:00 [INF] Removing 0 grants
+2020-07-28 22:00:30.429 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 22:01:00.445 +03:00 [INF] Removing 0 grants
+2020-07-28 22:01:00.447 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 22:01:30.461 +03:00 [INF] Removing 0 grants
+2020-07-28 22:01:30.463 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 22:02:00.477 +03:00 [INF] Removing 0 grants
+2020-07-28 22:02:00.478 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 22:02:30.495 +03:00 [INF] Removing 0 grants
+2020-07-28 22:02:30.496 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 22:03:00.504 +03:00 [INF] Removing 0 grants
+2020-07-28 22:03:00.506 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 22:03:30.518 +03:00 [INF] Removing 0 grants
+2020-07-28 22:03:30.519 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 22:04:00.532 +03:00 [INF] Removing 0 grants
+2020-07-28 22:04:00.533 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 22:04:30.549 +03:00 [INF] Removing 0 grants
+2020-07-28 22:04:30.550 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 22:05:00.557 +03:00 [INF] Removing 0 grants
+2020-07-28 22:05:00.559 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 22:05:30.568 +03:00 [INF] Removing 0 grants
+2020-07-28 22:05:30.570 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 22:06:00.583 +03:00 [INF] Removing 0 grants
+2020-07-28 22:06:00.585 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 22:06:30.600 +03:00 [INF] Removing 0 grants
+2020-07-28 22:06:30.602 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 22:07:00.617 +03:00 [INF] Removing 0 grants
+2020-07-28 22:07:00.618 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 22:07:30.631 +03:00 [INF] Removing 0 grants
+2020-07-28 22:07:30.632 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 22:08:00.656 +03:00 [INF] Removing 0 grants
+2020-07-28 22:08:00.657 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 22:08:30.680 +03:00 [INF] Removing 0 grants
+2020-07-28 22:08:30.681 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 22:09:00.710 +03:00 [INF] Removing 0 grants
+2020-07-28 22:09:00.711 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 22:09:30.721 +03:00 [INF] Removing 0 grants
+2020-07-28 22:09:30.723 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 22:10:00.738 +03:00 [INF] Removing 0 grants
+2020-07-28 22:10:00.739 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 22:10:30.756 +03:00 [INF] Removing 0 grants
+2020-07-28 22:10:30.758 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 22:11:00.766 +03:00 [INF] Removing 0 grants
+2020-07-28 22:11:00.767 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 22:11:30.788 +03:00 [INF] Removing 0 grants
+2020-07-28 22:11:30.789 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 22:12:00.804 +03:00 [INF] Removing 0 grants
+2020-07-28 22:12:00.805 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 22:12:30.824 +03:00 [INF] Removing 0 grants
+2020-07-28 22:12:30.828 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 22:13:00.842 +03:00 [INF] Removing 0 grants
+2020-07-28 22:13:00.845 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 22:13:30.868 +03:00 [INF] Removing 0 grants
+2020-07-28 22:13:30.872 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 22:14:00.901 +03:00 [INF] Removing 0 grants
+2020-07-28 22:14:00.905 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 22:14:30.926 +03:00 [INF] Removing 0 grants
+2020-07-28 22:14:30.935 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 22:15:00.960 +03:00 [INF] Removing 0 grants
+2020-07-28 22:15:00.964 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 22:15:30.974 +03:00 [INF] Removing 0 grants
+2020-07-28 22:15:30.982 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 22:16:00.995 +03:00 [INF] Removing 0 grants
+2020-07-28 22:16:00.997 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 22:16:31.006 +03:00 [INF] Removing 0 grants
+2020-07-28 22:16:31.008 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 22:42:31.071 +03:00 [INF] Starting IdentityServer4 version 4.0.4+1b36d1b414f4e0f965af97ab2a7e9dd1b5167bca
+2020-07-28 22:42:31.104 +03:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-07-28 22:42:31.104 +03:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-07-28 22:42:31.104 +03:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-07-28 22:42:31.105 +03:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-07-28 22:42:31.105 +03:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-07-28 22:42:31.106 +03:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-07-28 22:42:32.383 +03:00 [DBG] Login Url: /Account/Login
+2020-07-28 22:42:32.385 +03:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-07-28 22:42:32.386 +03:00 [DBG] Logout Url: /Account/Logout
+2020-07-28 22:42:32.387 +03:00 [DBG] ConsentUrl Url: /consent
+2020-07-28 22:42:32.388 +03:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-07-28 22:42:32.389 +03:00 [DBG] Error Url: /home/error
+2020-07-28 22:42:32.391 +03:00 [DBG] Error Id Parameter: errorId
+2020-07-28 22:42:48.000 +03:00 [INF] Сообщение отправлено успешно!
+2020-07-28 22:43:01.409 +03:00 [INF] Removing 0 grants
+2020-07-28 22:43:01.430 +03:00 [INF] Removing 0 device flow codes
+2020-07-28 22:43:31.461 +03:00 [INF] Removing 0 grants
+2020-07-28 22:43:31.465 +03:00 [INF] Removing 0 device flow codes

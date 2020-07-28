@@ -5856,19 +5856,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Dzianis_Shcharbakou\\.nuget\\packages\\": {}
+    "C:\\Users\\white\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Startup\\EducationalApp\\IdentityServer4\\IdentityServer\\IdentityServer.Infrastructure\\IdentityServer.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\white\\source\\repos\\EducationApp\\IdentityServer4\\IdentityServer\\IdentityServer.Infrastructure\\IdentityServer.Infrastructure.csproj",
       "projectName": "IdentityServer.Infrastructure",
-      "projectPath": "D:\\Startup\\EducationalApp\\IdentityServer4\\IdentityServer\\IdentityServer.Infrastructure\\IdentityServer.Infrastructure.csproj",
-      "packagesPath": "C:\\Users\\Dzianis_Shcharbakou\\.nuget\\packages\\",
-      "outputPath": "D:\\Startup\\EducationalApp\\IdentityServer4\\IdentityServer\\IdentityServer.Infrastructure\\obj\\",
+      "projectPath": "C:\\Users\\white\\source\\repos\\EducationApp\\IdentityServer4\\IdentityServer\\IdentityServer.Infrastructure\\IdentityServer.Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\white\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\white\\source\\repos\\EducationApp\\IdentityServer4\\IdentityServer\\IdentityServer.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Dzianis_Shcharbakou\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\white\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5876,9 +5876,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "D:\\Projects\\UIPath\\LibruariesForUsing": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://dotnet.myget.org/F/roslyn/api/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {

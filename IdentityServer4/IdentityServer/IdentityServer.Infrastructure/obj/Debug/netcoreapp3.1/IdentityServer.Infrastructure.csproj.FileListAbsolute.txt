@@ -19,3 +19,8 @@ D:\Startup\EducationalApp\IdentityServer4\IdentityServer\IdentityServer.Infrastr
 D:\Startup\EducationalApp\IdentityServer4\IdentityServer\IdentityServer.Infrastructure\obj\Debug\netcoreapp3.1\IdentityServer.Infrastructure.pdb
 D:\Startup\EducationalApp\IdentityServer4\IdentityServer\IdentityServer.Infrastructure\obj\Debug\netcoreapp3.1\IdentityServer.Infrastructure.genruntimeconfig.cache
 D:\Startup\EducationalApp\IdentityServer4\IdentityServer\IdentityServer.Infrastructure\obj\Debug\netcoreapp3.1\IdentityServer.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\white\source\repos\EducationApp\IdentityServer4\IdentityServer\IdentityServer.Infrastructure\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\white\source\repos\EducationApp\IdentityServer4\IdentityServer\IdentityServer.Infrastructure\bin\Debug\netcoreapp3.1\IdentityServer.Infrastructure.pdb
+C:\Users\white\source\repos\EducationApp\IdentityServer4\IdentityServer\IdentityServer.Infrastructure\obj\Debug\netcoreapp3.1\IdentityServer.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\white\source\repos\EducationApp\IdentityServer4\IdentityServer\IdentityServer.Infrastructure\obj\Debug\netcoreapp3.1\IdentityServer.Infrastructure.dll
+C:\Users\white\source\repos\EducationApp\IdentityServer4\IdentityServer\IdentityServer.Infrastructure\obj\Debug\netcoreapp3.1\IdentityServer.Infrastructure.pdb
