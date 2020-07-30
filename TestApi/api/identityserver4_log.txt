@@ -1,0 +1,70 @@
+2020-07-30 15:32:40.841 +03:00 [INF] Successfully validated the token.
+2020-07-30 15:38:12.177 +03:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidAudienceException: IDX10214: Audience validation failed. Audiences: 'https://localhost:5000/resources'. Did not match: validationParameters.ValidAudience: 'api' or validationParameters.ValidAudiences: 'at+jwt'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateAudience(IEnumerable`1 audiences, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateAudience(IEnumerable`1 audiences, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2020-07-30 15:42:56.350 +03:00 [INF] Successfully validated the token.
+2020-07-30 15:43:05.667 +03:00 [INF] Successfully validated the token.
+2020-07-30 15:43:46.216 +03:00 [INF] Successfully validated the token.
+2020-07-30 15:44:40.617 +03:00 [INF] Successfully validated the token.
+2020-07-30 15:45:36.423 +03:00 [INF] Successfully validated the token.
+2020-07-30 15:47:00.361 +03:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidAudienceException: IDX10214: Audience validation failed. Audiences: 'https://localhost:5000/resources'. Did not match: validationParameters.ValidAudience: 'api' or validationParameters.ValidAudiences: 'at+jwt'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateAudience(IEnumerable`1 audiences, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateAudience(IEnumerable`1 audiences, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2020-07-30 15:48:38.780 +03:00 [INF] Successfully validated the token.
+2020-07-30 15:49:33.314 +03:00 [INF] Successfully validated the token.
+2020-07-30 15:51:18.835 +03:00 [INF] Successfully validated the token.
+2020-07-30 15:56:34.241 +03:00 [INF] Successfully validated the token.
+2020-07-30 16:02:25.467 +03:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidAudienceException: IDX10214: Audience validation failed. Audiences: 'https://localhost:5000/resources'. Did not match: validationParameters.ValidAudience: 'api' or validationParameters.ValidAudiences: 'at+jwt'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateAudience(IEnumerable`1 audiences, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateAudience(IEnumerable`1 audiences, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2020-07-30 16:02:25.500 +03:00 [INF] Bearer was not authenticated. Failure message: IDX10214: Audience validation failed. Audiences: 'https://localhost:5000/resources'. Did not match: validationParameters.ValidAudience: 'api' or validationParameters.ValidAudiences: 'at+jwt'.
+2020-07-30 16:02:25.518 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2020-07-30 16:03:55.664 +03:00 [INF] Successfully validated the token.
+2020-07-30 16:04:39.693 +03:00 [INF] Successfully validated the token.
+2020-07-30 16:05:58.540 +03:00 [INF] Successfully validated the token.
+2020-07-30 16:07:13.355 +03:00 [INF] Successfully validated the token.
+2020-07-30 16:11:33.703 +03:00 [INF] Successfully validated the token.
+2020-07-30 16:39:50.016 +03:00 [INF] Successfully validated the token.
+2020-07-30 16:39:56.260 +03:00 [INF] Successfully validated the token.
+2020-07-30 16:41:34.766 +03:00 [INF] Successfully validated the token.
+2020-07-30 16:41:41.106 +03:00 [INF] Successfully validated the token.
+2020-07-30 16:41:48.753 +03:00 [INF] Successfully validated the token.
+2020-07-30 16:42:04.450 +03:00 [INF] Successfully validated the token.
+2020-07-30 16:42:15.000 +03:00 [INF] Successfully validated the token.
+2020-07-30 16:42:24.345 +03:00 [INF] Successfully validated the token.
+2020-07-30 16:42:27.865 +03:00 [INF] Successfully validated the token.
+2020-07-30 16:42:59.245 +03:00 [INF] Successfully validated the token.
+2020-07-30 16:47:33.665 +03:00 [INF] Successfully validated the token.
+2020-07-30 16:47:40.416 +03:00 [INF] Successfully validated the token.
+2020-07-30 16:49:10.715 +03:00 [INF] Successfully validated the token.
+2020-07-30 16:50:18.664 +03:00 [INF] Successfully validated the token.
+2020-07-30 16:51:16.742 +03:00 [INF] Successfully validated the token.
+2020-07-30 16:54:55.106 +03:00 [INF] Successfully validated the token.
+2020-07-30 16:58:08.301 +03:00 [INF] Successfully validated the token.
+2020-07-30 16:59:05.161 +03:00 [INF] Successfully validated the token.
+2020-07-30 17:06:03.805 +03:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '07/30/2020 13:43:46', Current time: '07/30/2020 14:06:03'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2020-07-30 17:06:03.815 +03:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '07/30/2020 13:43:46', Current time: '07/30/2020 14:06:03'.
+2020-07-30 17:06:03.818 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2020-07-30 17:06:59.206 +03:00 [INF] Successfully validated the token.
+2020-07-30 17:08:17.471 +03:00 [INF] Successfully validated the token.
+2020-07-30 17:22:33.808 +03:00 [INF] Successfully validated the token.
+2020-07-30 17:23:40.573 +03:00 [INF] Successfully validated the token.
+2020-07-30 17:24:14.087 +03:00 [INF] Successfully validated the token.

@@ -28,16 +28,16 @@ namespace IdentityServer
         {
             return new ApiResource[]
             {
-            new ApiResource
-            {
-                Name = "api",
-                DisplayName = "API #1",
-                Description = "Allow the application to access API #1 on your behalf",
-                Scopes = new List<string> {"api.read", "api.write"},
-                ApiSecrets = new List<Secret> {new Secret("ScopeSecret".Sha256())},
-                UserClaims = new List<string> {"role"}
-            }
-        };
+                new ApiResource
+                {
+                    Name = "api",
+                    DisplayName = "Secure API",
+                    Description = "Allow the application to access API #1 on your behalf",
+                    Scopes = new List<string> {"api.read", "api.write"},
+                    //ApiSecrets = new List<Secret> {new Secret("ScopeSecret".Sha256())},
+                    UserClaims = new List<string> {"role"}
+                }
+            };
         }
 
         public static IEnumerable<ApiScope> GetApiScopes()
@@ -74,9 +74,9 @@ namespace IdentityServer
 
                     AllowedGrantTypes = GrantTypes.Code,
                     // where to redirect to after login
-                    RedirectUris = {"http://localhost:5005/callback.html"},
+                    RedirectUris = {"http://localhost:5005/callback.html", "http://localhost:5006/callback.html"},
                     // where to redirect to after logout
-                    PostLogoutRedirectUris = { "http://localhost:5005/index.html" },
+                    PostLogoutRedirectUris = { "http://localhost:5005/index.html", "http://localhost:5006/index.html" },
 
                     AllowedScopes = new List<string>
                     {

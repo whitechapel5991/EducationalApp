@@ -1,0 +1,120 @@
+<html>
+<body>
+  <h1>Hello</h1>
+  <h2>
+    <div id="info">...</div>
+  </h2>
+  <div id="logout" style="margin:20px"></div>
+
+  <br>
+  <br>
+  <label id="tokenLabel"></label>
+  <div id="at" style="margin:20px"></div>
+
+  <br>
+  <label id="userLabel"></label>
+  <pre id="userResults"></pre>
+
+  <br>
+  <label id="apiLabel"></label>
+  <pre id="result" style="margin:20px">foo</pre>
+
+  <script src="oidc-client.min.js"></script>
+  <script>
+    // Start this client on 5005 port or change `localhostClientPort` variable
+    // Start application:
+    // ..\client\: npx http-server -p localhostClientPort
+    // localhostClientPort is port this client!!!
+    //
+    // For example:
+    // ..\client\: npx http-server -p 5005
+    const secureAPI = `https://localhost:5002/api/secure`;
+    const identityServer = `https://localhost:5000`;
+    const localhostClientPort = 5005;
+
+    (async () => {
+
+      const config = {
+        authority: identityServer,
+        client_id: 'spa',
+        redirect_uri: `http://localhost:${localhostClientPort}/callback.html`,
+        post_logout_redirect_uri: `http://localhost:${localhostClientPort}/loggedOut.html`,
+        response_type: 'code',
+        aud: 'api',
+        scope: 'openid profile email api.read api.write',
+
+      };
+
+      const manager = new Oidc.UserManager(config);
+      const user = await manager.getUser();
+
+      if (user) {
+        await userLoggedIn(user);
+      } else {
+        document.getElementById("userResults").innerHTML = '';
+        document.getElementById("userLabel").innerHTML = '';
+
+        const infoElem = document.getElementById('info');
+        infoElem.innerText = 'Redirecting in 3s...';
+
+        setTimeout(async () => {
+          try {
+            const usr = await manager.signinPopup();
+            await userLoggedIn(usr);
+          } catch (error) {
+            console.log(error);
+          }
+        }, 3000);
+      }
+
+      async function userLoggedIn(user) {
+        addLogoutBtn();
+
+        const infoElem = document.getElementById('info');
+        infoElem.innerText = 'Welcome ' + user.profile.name;
+
+        document.getElementById("tokenLabel").innerHTML = 'Token:';
+        const tokenElem = document.getElementById('at');
+        tokenElem.innerText = user.access_token;
+
+        document.getElementById('userResults').innerText = '';
+        document.getElementById('userLabel').innerHTML = '';
+        document.getElementById('userLabel').innerHTML = 'User data:';
+        document.getElementById('userResults').innerHTML += "User logged in" + JSON.stringify(user.profile, null, 2) + '\r\n';
+
+        // call the API
+        const response = await fetch(secureAPI, {
+          method: 'GET',
+          headers: {
+            'Authorization': 'Bearer ' + user.access_token
+          }
+        });
+
+        const data = JSON.stringify(JSON.parse(await response.text()), null, 2);
+
+        document.getElementById("apiLabel").innerHTML = 'Api result:';
+        document.getElementById('result').innerText = data;
+      }
+
+      function addLogoutBtn() {
+        const button = document.createElement('button');
+        button.type = 'button';
+        button.innerText = 'logout';
+        button.style = 'width: 100px; height: 20px';
+        button.onclick = logout;
+
+        document.getElementById('logout').appendChild(button);
+      }
+
+      async function logout() {
+        try {
+          const result = await manager.signoutPopup();
+        } finally {
+          document.location.reload(true);
+        }
+      }
+    })();
+  </script>
+</body>
+
+</html>
